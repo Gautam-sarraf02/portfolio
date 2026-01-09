@@ -327,8 +327,10 @@ span{
   margin-bottom: 8px;
 }
 .cert-front p {
-  font-size: 14px;
+  font-size: 16px;
   opacity: 0.85;
+  color: #3B0764;
+  
 }
 .cert-back {
   background: hwb(139 2% 38%);
