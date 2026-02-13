@@ -261,7 +261,7 @@ span{
     font-size: 25px;
  }
 .card {
-  background: rgba(49, 108, 76, 0.999);
+  background:  var(--main-color);
   backdrop-filter: blur(10px);
   border-radius: 18px;
   padding: 25px;
@@ -276,14 +276,15 @@ span{
 }
 
 .card h3 {
-    font-size: 16px;
+  font-size: 25px;
   margin-bottom: 10px;
-  color:white;
+  color:black;
 }
 .card p {
-  font-size: 14px;
+  font-size: 16px;
   opacity: 0.85;
-  color: black;
+  color: #3B0764;
+  justify-content: left;
 }
 /* ===== Certificates (Flip Cards) ===== */
 .certificates {
